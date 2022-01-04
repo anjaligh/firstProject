@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color: black;
+    height: 5em;
+}
+img{
+    margin-top: 8px;
+    margin-left: 150px;
+}
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 75px;
+}
+.head-tag a{
+    text-decoration-line: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+
+}
+.head-tag a:hover{
+    color: black;
+    background-color: cadetblue;
+transition: 0.5s ease-in-out;
+}
+.description{
+float: left;
+margin-left: 125px;
+margin-top: 125px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+.description li{
+  font-size: small;
+  font-weight: bold;
+  list-style: square;
+  margin-bottom: 8px;
+
+}
+.login{
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin-top: 5%;
+    margin-right: 25px;
+    border: 2px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.login h2{
+    text-align: center;
+}
+.login input{
+    height: 1.5em;
+}
+.login #login-button{
+    width: 100%;
+    height: 1.8em;
+    background-color: rgb(43, 122, 226);
+    color: white;
+}
+.bigbox{
+    /* border: 2px solid black; */
+    margin-top: 28%;
+    margin-left: 5%;
+}
+.box{
+    border: 2px solid white;
+    width: 21%;
+    float: left;
+    margin-left: 10px;
+    height: 18em;
+    background-color: gray;
+    padding: 8px;
+}
+.box h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.box p{
+    line-height: 1.25em;
+    text-align: justify; 
+}
+.box a{
+    text-decoration-line: none;
+    color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 52%;
+    text-align: center;
+
+}
